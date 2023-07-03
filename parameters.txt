@@ -1,0 +1,9 @@
+parameter;                     answer
+path_image;                    C:\...
+path_out;                      C:\...
+path_metadata;                 C:\...
+aod_value;                     0
+target_altitude_value;         0
+p_min_value;                   0
+p_max_value;                   0
+default (True or False);       False
