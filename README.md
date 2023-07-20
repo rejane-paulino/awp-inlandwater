@@ -14,12 +14,22 @@ To run the AWP-Inland Water, it is necessary a suitable use of the environment `
             python api.py
 
 ## Input Parameters:
-
+* *path_image*: path where the images are available (string);
+* *path_output*: folder path where the corrected images will be saved (string);
+* *path_metadata*: folder where the image metadata is available (e.g., MTL.xml) (string);
+* *aod_value*: AOD (Aerosol Optical Deep) value (float);
+* *target_altitude_value*: altitude value in km (float);
+* *p_min_value*: minimum proportion value of non-water targets whithin range (float, from 0 to 100);
+* *p_max_value*: maximum proportion value of non-water targets whithin range (float, from 0 to 100);
+* *default*: True or False. If "True" the code will be ran using default values for mininum and maximum proportions of non-water targets. Otherwise, it will be ran using the values provided by users.
         
 ## Output Parameters:
-    
+Corrected images with 20 m of spatial resolution (.TIFF) are available in *path_output*.
 
 ## Warning:
 
+> AWP-Inland Water is based on multi-iterations; therefore, its estimation is time-consuming. We deeply recommend to the users to divide the original image in small blocks around the waterbodies to enhance time and resources use efficiency.
 
 ## Reference:
+
+Paulino, R.S.; Martins, V.S.; Novo, E.M.L.M.; Barbosa, C.C.F.; de Carvalho, L.A.S.; Begliomini, F.N. Assessment of Adjacency Correction over Inland Waters Using Sentinel-2 MSI Images. Remote Sens. 2022, 14, 1829. https://doi.org/10.3390/rs14081829
