@@ -29,7 +29,7 @@ To run the AWP-Inland Water, it is necessary a suitable use of the environment `
 ## Output Parameters:
 Corrected images with 20 m of spatial resolution (.TIFF) are available in *path_output*.
 
-## Warning:
+## Notes:
 
 > AWP-Inland Water is based on multi-iterations per pixel; therefore, its estimation is time-consuming. We deeply recommend to the users to divide the original image in small blocks around the waterbodies to enhance time and resources use efficiency.
 
