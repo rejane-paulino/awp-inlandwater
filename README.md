@@ -1,4 +1,7 @@
 # (AWP - Inland Water) Adaptative Window by Proportion applied to Inland Water <img src="img/awpinlandwater.svg" width="150" align="right" />
+![Version](https://img.shields.io/badge/version-v0.0.1-blue)
+![License](https://img.shields.io/badge/license-GPL%203.0-blue)
+![Language](https://img.shields.io/badge/language-Python-blue)
 
 AWP-Inland Water is a proto-algorithm that has been developed to address the reduction of adjacency effect on satellite-imagery applied to small waterbodies. The key principle behind AWP-Inland Water lies in its ability to adapt window-ranges according to local conditions across the waterbodies. For more details about this proto-algorithm, we recommend referring to the comprehensive study conduced by Paulino et al. (2022).   
 
@@ -14,13 +17,13 @@ To run the AWP-Inland Water, it is necessary a suitable use of the environment `
             python api.py
 
 ## Input Parameters:
-* *path_image*: path where the images are available (string);
-* *path_output*: folder path where the corrected images will be saved (string);
-* *path_metadata*: folder where the image metadata is available (e.g., MTL.xml) (string);
-* *aod_value*: AOD (Aerosol Optical Deep) value (float);
+* *path_image*: folder where the images are available (string);
+* *path_output*: folder where the corrected images will be saved (string);
+* *path_metadata*: path with image metadata (e.g., MTL.xml) (string);
+* *aod_value*: AOD (Aerosol Optical Depth) value (float);
 * *target_altitude_value*: altitude value in km (float);
-* *p_min_value*: minimum proportion value of non-water targets whithin range (float, from 0 to 100);
-* *p_max_value*: maximum proportion value of non-water targets whithin range (float, from 0 to 100);
+* *p_min_value*: minimum proportion value of non-water targets within range (float, from 0 to 100);
+* *p_max_value*: maximum proportion value of non-water targets within range (float, from 0 to 100);
 * *default*: True or False. If "True" the code will be ran using default values for mininum and maximum proportions of non-water targets. Otherwise, it will be ran using the values provided by users.
         
 ## Output Parameters:
