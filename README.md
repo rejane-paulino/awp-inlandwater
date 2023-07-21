@@ -1,7 +1,7 @@
 # (AWP - Inland Water) Adaptative Window by Proportion applied to Inland Water <img src="img/awpinlandwater.svg" width="150" align="right" />
 ![Version](https://img.shields.io/badge/version-v0.0.1-blue)
 ![License](https://img.shields.io/badge/license-GPL%203.0-blue)
-![Language](https://img.shields.io/badge/language-Python-blue)
+![Language](https://img.shields.io/badge/language-Python&Cython-blue)
 
 AWP-Inland Water is a proto-algorithm that has been developed to address the reduction of adjacency effect on satellite-imagery applied to small waterbodies. The key principle behind AWP-Inland Water lies in its ability to adapt window-ranges according to local conditions across the waterbodies. For more details about this proto-algorithm, we recommend referring to the comprehensive study conduced by Paulino et al. (2022).   
 
