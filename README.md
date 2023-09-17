@@ -17,8 +17,8 @@ To run the AWP-Inland Water, it is necessary a suitable use of the environment `
             python api.py
 
 ## Input Parameters:
-* *path_image*: folder where the images are available (string);
-* *path_output*: folder where the corrected images will be saved (string);
+* *path_image*: directory where the images are available (string);
+* *path_output*: directory where the corrected images will be saved (string);
 * *path_metadata*: path with image metadata (e.g., MTL.xml) (string);
 * *aod_value*: AOD (Aerosol Optical Depth) value (float);
 * *target_altitude_value*: altitude value in km (float);
@@ -27,7 +27,7 @@ To run the AWP-Inland Water, it is necessary a suitable use of the environment `
 * *default*: True or False. If "True" the code will be ran using default values for mininum and maximum proportions of non-water targets. Otherwise, it will be ran using the values provided by users.
         
 ## Output Parameters:
-Corrected images with 20 m of spatial resolution (.TIFF) are available in *path_output*.
+Images corrected with 20 m of spatial resolution (.TIFF) are available in *path_output*.
 
 ## Notes:
 
