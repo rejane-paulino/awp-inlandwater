@@ -1,4 +1,4 @@
-# (AWP - Inland Water) Adaptative Window by Proportion applied to Inland Water <img src="img/awpinlandwater.svg" width="150" align="right" />
+# (AWP - Inland Water) Adaptative Window by Proportion applied to Inland Water <img src="img/awpinlandwater.svg" width="250" align="right" />
 ![Version](https://img.shields.io/badge/version-v0.0.1-blue)
 ![License](https://img.shields.io/badge/license-GPL%203.0-blue)
 ![Language](https://img.shields.io/badge/language-Python&Cython-blue)
